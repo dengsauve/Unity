@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Spikes.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player.cs">
     <Files>
-      <File FileName="Assets\Scripts\HUD.cs" Line="16" Column="4" />
-      <File FileName="Assets\Scripts\Player.cs" Line="98" Column="23" />
-      <File FileName="Assets\Scripts\Spikes.cs" Line="23" Column="1" />
+      <File FileName="Assets\Scripts\HUD.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player.cs" Line="99" Column="65" />
+      <File FileName="Assets\Scripts\Spikes.cs" Line="21" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

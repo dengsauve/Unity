@@ -96,6 +96,24 @@ public class Player : MonoBehaviour {
 	public void Damage(int damage){
 
 		curHealth -= damage;
+		gameObject.GetComponent<Animation> ().Play ("PlayerRedFlash");
 
+	}
+
+
+	// Can only be called with: StartCoroutine(<Player>.Knockback())
+	public IEnumerator Knockback(float knockDur, float knockbackPwr, Vector3 knockbackDir){
+
+		float timer = 0;
+
+		while (knockDur > timer) {
+
+			timer += Time.deltaTime;
+
+			rb2d.AddForce (new Vector3 (knockbackDir.x * -100, knockbackDir.y * knockbackPwr, transform.position.z));
+
+		}
+
+		yield return 0;
 	}
 }
